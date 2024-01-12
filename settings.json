@@ -18,7 +18,12 @@
   "apc.stylesheet": {
     ".title-label > h2": "display: none",
     ".editor-actions": "display: none",
-    ".pane-body": "padding:5%"
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 0 8px",
+    ".pane-body": "padding: 8px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
   },
   "editor.scrollbar.vertical": "hidden",
   "workbench.startupEditor": "newUntitledFile",
@@ -62,3 +67,4 @@
   "editor.formatOnType": true,
   "window.menuBarVisibility": "compact"
 }
+
