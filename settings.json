@@ -1,39 +1,34 @@
 {
-    "window.zoomLevel": -2,
-    "files.autoSave": "afterDelay",
+  "files.autoSave": "afterDelay",
+  "workbench.iconTheme": "symbols",
+  "symbols.hidesExplorerArrows": true,
 
-    "workbench.colorTheme": "Elizabeth Báthory (at dusk)",
-    "workbench.iconTheme": "symbols",
-    "symbols.hidesExplorerArrows": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.statusBar.visible": false,
+  "workbench.editor.showTabs": "single",
+  "workbench.startupEditor": "terminal",
+  "workbench.tips.enabled": false,
+  "window.commandCenter": false,
 
-    "workbench.tree.renderIndentGuides": "none",
-    "workbench.sideBar.location": "right",
-    "workbench.statusBar.visible": false,
-    "workbench.editor.showTabs": "multiple",
-    "workbench.layoutControl.enabled": false,
-    "workbench.startupEditor": "terminal",
-    "workbench.tips.enabled": false,
-    "window.commandCenter": false,
-    
-    "editor.guides.indentation": false,
-    "editor.renderWhitespace": "none",
-    "editor.minimap.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.indentation": false,
+  "editor.renderWhitespace": "none",
   "editor.renderLineHighlight": "none",
-  "editor.matchBrackets": "never",
+  "editor.matchBrackets": "always",
   "editor.lightbulb.enabled": "onCode",
-  "editor.hover.enabled": false,
-  "editor.showFoldingControls": "never",
+  "editor.hover.enabled": true,
+  "editor.showFoldingControls": "mouseover",
   "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.vertical": "auto",
   "editor.overviewRulerBorder": false,
   "editor.cursorBlinking": "solid",
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.tabSize": 2,
+  "editor.tabSize": 4,
   "editor.detectIndentation": false,
-  "editor.fontFamily": "Dank Mono",
+  "editor.fontFamily": "Jetbrains Mono",
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
-  "editor.lineHeight": 2.4,
+  "editor.lineHeight": 2.5,
   "breadcrumbs.enabled": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
@@ -42,9 +37,8 @@
   "scm.diffDecorations": "none",
   "files.insertFinalNewline": true,
   "extensions.ignoreRecommendations": true,
-  
-  "terminal.integrated.fontFamily": "Dank Mono, JetBrainsMono Nerd Font",
-  "terminal.integrated.tabs.enabled": false,
+
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "terminal.integrated.lineHeight": 1.5,
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.env.osx": {
@@ -55,43 +49,117 @@
     "titleBarStyle": "hiddenInset"
   },
   "apc.listRow": {
-    "lists": [
-      "explorer-folders-view",
-      "quick-input-list",
-      "results"
-    ],
-    "height": 30
+    "lists": ["explorer-folders-view", "quick-input-list", "results"],
+    "height": 35
   },
   "apc.activityBar": {
     "position": "bottom",
     "itemSize": 35,
-    "size":40,
+    "size": 40,
     "itemMargin": 10
   },
   "apc.header": {
-    "compact":10,
+    "compact": 10
   },
   "apc.stylesheet": {
-    ".title-actions": "display: flex; !important;justify-content:between;",
     ".title-label > h2": "display: none",
     ".quick-input-widget.show-file-icons, .editor-widget.find-widget": "box-shadow: none !important",
-    ".filematch .monaco-icon-label:before, .custom-list-row.results .monaco-list-row .monaco-icon-label:before": "background-position: 0 bottom !important",
-    ".filematch .monaco-count-badge": "padding: 5px 6px 0 6px !important",
-    ".sidebar .title-label": "padding: 0 !important",
-    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
     ".sidebar": "border: none !important",
-    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #67D0FF 10%, #C45DFF 100%)",
     ".quick-input-list-row div": "display: flex !important; align-items: center !important",
-    ".panel .composite.title": "visibility: hidden !important",
     ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "padding-bottom: 6px !important",
-    ".sidebar .title-label h2": "line-height: 2.8 !important",
-    ".monaco-editor .scroll-decoration": "display: none !important",
-    ".monaco-scrollable-element > .shadow.top": "display: none !important",
-    ".monaco-split-view2 > .monaco-scrollable-element > .split-view-container": "background: #191521 !important",
+    ".search-view .search-widgets-container": "padding-top: 0px !important",
+    ".suggest-input-container": "padding: 3px 4px 3px !important;",
+    ".mtki": "font-size: 1.12em !important; font-stretch: ultra-condensed !important;",
+    ".composite.title": "display: none !important;",
+    ".mtk11": "color: #91bbff; text-shadow: 0 0 10px #2f36ff, 0 0 22px #9d91ff, 0 0 2px black;",
+    ".mtk12": "color: #67d2ff; text-shadow: 0 0 15px #12baff, 0 0 2px black;",
+    ".monaco-editor .cursors-layer .cursor": "background: #12c2e9; background: -webkit-linear-gradient(to top,#f64f59,#c471ed,#be12e9);background: linear-gradient(to top,#f64f59,#c471ed,#be12e9);"
   },
   "animations.Install-Method": "Apc Customize UI++",
   "terminal.integrated.env.windows": {},
   "editor.inlineSuggest.suppressSuggestions": true,
   "window.menuBarVisibility": "toggle",
   "editor.wordWrap": "wordWrapColumn",
+  "redhat.telemetry.enabled": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "bash (MSYS2)": {
+      "path": "C:\\msys64\\usr\\bin\\bash.exe",
+      "args": ["--login", "-i"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "window.zoomLevel": -2,
+  "console-ninja.featureSet": "Community",
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "omnisharp.organizeImportsOnFormat": true,
+
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "workbench.activityBar.location": "hidden",
+  "git.openRepositoryInParentFolders": "never",
+  "editor.minimap.size": "fit",
+  "workbench.colorTheme": "Moonlight II",
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "css": "css"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "debug.disassemblyView.showSourceCode": false,
+  "console-ninja.showWhatsNew": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.component.ts": "${capture}.component.ts,${capture}.component.html,${capture}.component.scss,${capture}.component.spec.ts"
+  },
+  "supermaven.otherWarning": false,
+  "workbench.editorAssociations": {
+    "*.jar": "default"
+  },
+  "git.autofetch": true,
+  "workbench.sideBar.location": "right",
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "docker-desktop"
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.env.linux": {},
+  "terminal.external.linuxExec": "bash",
+  "workbench.layoutControl.enabled": false,
+  "window.customTitleBarVisibility": "never",
+  "editor.minimap.enabled": false,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  }
 }
+
